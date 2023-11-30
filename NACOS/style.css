@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.left{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+div img{
+    animation-iteration-count: 1s;
+}
+
+.all{
+    margin-top: 70px;
+    margin-left: 50px;
+    display: flex;
+    background: white;
+    width: 1500px;
+    height:  624px;
+	box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.4), -10px 20px 20px 0 rgba(0, 0, 0, 0.4), 0px 2px 20px 0 rgba(0, 0, 0, 0.5);
+}
+#register{
+    margin-top: 30px;
+    font-weight: bold;
+    margin-left: 130px;
+    font-family: Arial Black;
+    font-size: 40px;
+    color: rgb(33, 129, 33);
+}
+.right{
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.right-1{
+    display: flex;
+    margin-left: 130px;
+    margin-top: 20px;
+   
+}
+.right-2 div{
+    font-size: 22px;
+    padding-left: 20px;
+    color: gray;
+}
+.right-2 input{
+    padding: 20px;
+    margin-left: -30px;
+    border-radius: 100px;
+    width: 230px;
+    margin-top: 20px;
+    height: 40px;
+    background: rgb(231, 229, 229);
+    outline: none;
+    border: none;
+}
+.right-2 input::placeholder{
+    padding-left: 10px;
+    color: gray;
+    font-size: 15px
+}
+
+
+.right-4 div{
+    font-size: 22px;
+    padding-left: 100px;
+    color: gray;
+}
+.right-4 input{
+    padding: 10px;
+    margin-left: 100px;
+    border-radius: 100px;
+    width: 230px;
+    margin-top: 20px;
+    height: 40px;
+    background: rgb(231, 229, 229);
+    outline: none;
+    border: none;
+}
+.right-4 input::placeholder{
+    padding-left: 20px;
+    color: gray;
+    font-size: 15px
+}
+
+
+
+
+.right-3{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.right-3 input{
+    padding: 20px;
+    margin-left: 0px;
+    border-radius: 100px;
+    width: 560px;
+    margin-top: 20px;
+    height: 40px;
+    background: rgb(231, 229, 229);
+    outline: none;
+    border: none;
+}
+
+.right-3 div{
+    font-size: 22px;
+    padding-left: 0px;
+    color: gray;
+}
+
+.right-3 input::placeholder{
+    padding-left: 10px;
+    color: gray;
+    font-size: 15px
+}
+
+.right-5{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.right-5 input{
+    padding: 20px;
+    margin-left: 0px;
+    border-radius: 100px;
+    width: 560px;
+    margin-top: 10px;
+    height: 40px;
+    background: rgb(231, 229, 229);
+    outline: none;
+    border: none;
+}
+
+.right-5 div{
+    font-size: 22px;
+    padding-left: 0px;
+    color: gray;
+}
+
+.right-5 input::placeholder{
+    padding-left: 10px;
+    color: gray;
+    font-size: 15px
+}
+
+.right-6{
+    display: flex;
+}
+
+.right-7 select{
+    padding-left: 20px;
+    margin-left: 0px;
+    border-radius: 100px;
+    width: 270px;
+    margin-top: 10px;
+    height: 40px;
+    background: rgb(231, 229, 229);
+    outline: none;
+    border: none;
+    color: gray;
+    cursor:pointer;
+}
+
+
+.right-7{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.right-7 div{
+    font-size: 22px;
+    padding-left: 0px;
+    color: gray;
+}
+.right-8{
+    margin-top: 30px;
+    margin-left: 50px;    
+}
+
+.right-8 div{
+    font-size: 22px;
+    padding-left: 0px;
+    color: gray;
+}
+ button{
+    width: 240px;
+    background: rgb(231, 229, 229);
+    border: none;
+    padding-right: 80px;
+    color: gray;
+    margin-top: 10px;
+    border-radius: 100px;
+    height: 40px;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 15px;
+}
+.right-9 a button {
+    background: rgb(33, 129, 33);
+     font-weight: bold; 
+     padding-left: 50px; 
+     margin-left: 290px;
+      margin-top: 15px;
+     padding-top: 3px;
+      width: 200px; 
+      font-size: 18px;
+       color: white;
+}

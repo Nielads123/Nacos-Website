@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacos Login Page</title>
+
+    <link rel="shortcut icon" href="img/6.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="animate.css">
+</head>
+<body>
+   
+    
+    <div class="all">
+        <div class="left">
+            <div class=""><img src="img/1.jpg"   alt=""></div>
+        </div>
+
+        <div class="right">
+            <div id="register">LOGIN</div>
+
+          
+            
+
+            <div class="right-3">
+                <div>User Name:</div>
+                <input type="name" name="name" id="" placeholder="Enter Your Username 🖋">
+            </div>
+
+            <div class="right-5">
+                <div>Passworrd:</div>
+                <input type="password" value="FakePSW" id="myInput">
+                <input class="check" type="checkbox" onclick="myFunction()"><span>Show Password</span>
+
+            </div>
+          
+            
+                <div class="right-9">
+                  <a href="Dashboard.html">  <button>LOGIN</button></a>
+                </div>
+
+        </div>
+
+    </div>
+
+    <script>
+        function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+    </script>
+</body>
+</html>

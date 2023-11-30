@@ -1,0 +1,216 @@
+
+/* NAV-BAR */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: white;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background: #fff;
+    width: 300px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+    text-align: center;
+    display: flex;
+    transition: all 0.5s ease;
+    margin: 10px 0 0 10px
+}
+
+.logo img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 25px;
+    margin-left: 20px;
+    margin-bottom: -2px;
+    margin-top: 8px;
+}
+
+
+.logo span{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
+a{
+    position: relative;
+    color: black;
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 1px;
+}
+
+
+.nav-item {
+    position: relative;
+    font-size: 18px;
+    top: 19px;
+    margin-left: 10px;
+}
+.fact-2 span{
+    color: #6425FE;
+     font-size: 20px;
+      margin-left: 45px;
+      font-weight: bold;
+}
+
+
+
+
+
+.fact-1{
+    margin-top: 25px;
+    margin-left: -10px;
+    list-style: none;
+}
+.fact-1 span{
+    margin-left: 60px;
+}
+
+.fact-1 .nav-item{
+    margin-left: 50px;
+}
+.fact-3 span{
+    margin-left: 40px;
+}
+
+
+
+
+
+.fact-2 {
+    margin-top: 30px;
+    list-style: none;
+    background: rgba(1, 1, 253, 0.151);
+    border-radius: 5px;
+    color: white;
+    height: 60px;
+}
+
+.fact-1:hover{
+    margin-top: 30px;
+    list-style: none;
+    background: rgba(1, 1, 253, 0.151);
+    border-radius: 5px;
+    color: white;
+    height: 60px;
+}
+
+.fact-6{
+    padding-left: 10px;
+}
+
+
+.fact-1 span{
+    margin-left: 34px;
+}
+
+
+
+.fact-4{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+    
+
+
+
+
+
+.row{
+    margin-left: 350px;
+}
+
+.col-md-4{
+    padding-left: 20px;
+}
+
+#content{
+    width: 250px;
+	margin: 15px;
+	box-sizing: border-box;
+	float: left;
+	text-align: w300pxcenter;
+	border-radius: 20px;
+	padding-top: 10px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+	0 10px 10px rgba(0,0,0,0.22);
+	transition: 0.4s;
+    height: 350px;
+}
+
+#bk{
+    font-size: 150px;
+    color: black;
+    padding-top: 40px;
+}
+
+.div  .buy-1{
+    margin-top: -80px;
+}
+
+#bk img{
+margin-top: -50px;
+border-radius: 20px;
+}
+button{
+	text-align: center;
+	width: 250px;
+    text-decoration: none;
+	padding: 15px;
+	border: 0;
+	outline: none;
+    color: #fff;
+	cursor: pointer; 
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+
+
+
+.buy-1{
+    background: #000000;
+    color: white;
+    font-size: 20px;
+    margin-top: 80px;
+
+}
+
+.buy-2{
+    background: #000000;
+    color: white;
+    font-size: 18px;
+    margin-top: 80px;
+}
+#wer{
+    margin-top: rgb(48, 42, 42)
+}
+
+button:hover{
+    background:  rgb(33, 129, 33);
+    text-decoration: none;
+}

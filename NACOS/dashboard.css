@@ -1,0 +1,136 @@
+/* NAV-BAR */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: white;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background: #fff;
+    width: 300px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+    text-align: center;
+    display: flex;
+    transition: all 0.5s ease;
+    margin: 10px 0 0 10px
+}
+
+.logo img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 25px;
+    margin-left: 20px;
+    margin-bottom: -2px;
+    margin-top: 8px;
+}
+
+
+.logo span{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
+a{
+    position: relative;
+    color: black;
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 1px;
+}
+
+
+.nav-item {
+    position: relative;
+    font-size: 18px;
+    top: 19px;
+    margin-left: 10px;
+}
+.fact-2 span{
+    color: #6425FE;
+     font-size: 20px;
+      margin-left: 45px;
+      font-weight: bold;
+}
+
+
+
+
+
+.fact-1{
+    margin-top: 25px;
+    margin-left: -10px;
+    list-style: none;
+}
+.fact-1 span{
+    margin-left: 60px;
+}
+
+.fact-1 .nav-item{
+    margin-left: 50px;
+}
+.fact-3 span{
+    margin-left: 40px;
+}
+
+
+
+
+
+.fact-2 {
+    margin-top: 30px;
+    list-style: none;
+    background: rgba(1, 1, 253, 0.151);
+    border-radius: 5px;
+    color: white;
+    height: 60px;
+}
+
+.fact-1:hover{
+    margin-top: 30px;
+    list-style: none;
+    background: rgba(1, 1, 253, 0.151);
+    border-radius: 5px;
+    color: white;
+    height: 60px;
+}
+
+.fact-6{
+    padding-left: 10px;
+}
+
+
+.fact-1 span{
+    margin-left: 34px;
+}
+
+
+
+.fact-4{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+    

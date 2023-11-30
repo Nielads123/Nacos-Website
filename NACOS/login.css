@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.left{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+
+.all{
+    margin-top: 80px;
+    margin-left: 50px;
+    display: flex;
+    background: white;
+    width: 1500px;
+    height:  624px;
+	box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.4), -10px 20px 20px 0 rgba(0, 0, 0, 0.4), 0px 2px 20px 0 rgba(0, 0, 0, 0.5);
+}
+#register{
+    margin-top: 30px;
+    font-weight: bold;
+    margin-left: 270px;
+    font-family: Arial Black;
+    font-size: 40px;
+    color: rgb(33, 129, 33);
+}
+
+.right-3{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.right-3 input{
+    padding: 20px;
+    margin-left: 0px;
+    border-radius: 100px;
+    width: 560px;
+    margin-top: 20px;
+    height: 40px;
+    background: rgb(231, 229, 229);
+    outline: none;
+    border: none;
+}
+
+.right-3 div{
+    font-size: 22px;
+    padding-left: 0px;
+    color: gray;
+}
+
+.right-3 input::placeholder{
+    padding-left: 10px;
+    color: gray;
+    font-size: 15px
+}
+
+.right-5{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.right-5 .check{
+    margin-left: -250px;
+}
+.right-5 span{
+    margin-left: -250px;
+    font-size: 25px;
+    color: gray;
+    padding-top: -20px;
+}
+.right-5 input{
+    padding: 20px;
+    margin-left: 0px;
+    border-radius: 100px;
+    width: 560px;
+    margin-top: 10px;
+    height: 40px;
+    background: rgb(231, 229, 229);
+    outline: none;
+    border: none;
+}
+
+.right-5 div{
+    font-size: 22px;
+    padding-left: 0px;
+    color: gray;
+}
+
+.right-5 input::placeholder{
+    padding-left: 10px;
+    color: gray;
+    font-size: 15px
+}
+
+
+ button{
+    width: 240px;
+    background: rgb(231, 229, 229);
+    border: none;
+    padding-right: 80px;
+    color: gray;
+    margin-top: 10px;
+    border-radius: 100px;
+    height: 40px;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 15px;
+}
+.right-9 a button {
+    background: rgb(33, 129, 33);
+     font-weight: bold; 
+     padding-left: 70px; 
+     margin-left: 260px;
+      margin-top: 75px;
+     padding-top: 3px;
+      width: 200px; 
+      font-size: 18px;
+       color: white;
+}
